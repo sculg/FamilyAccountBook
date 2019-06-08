@@ -1,0 +1,253 @@
+/* 
+  Localizable.strings
+  FamilyAccountBook
+
+  Created by lg on 2019/6/8.
+  Copyright © 2019 sculg. All rights reserved.
+*/
+
+
+"Account" = "Account";
+"Report"  = "Report";
+"Me"      = "Me";
+"Total Wealth" = "Total Wealth";
+"Security Settings" = "Security Settings";
+"Data Management" = "Data Management";
+"General Settings" = "General Settings";
+"Help Center" = "Help Center";
+"About Us" = "About Us";
+"Rate Me" = "Rate Me";
+"Add A Record" = "Add A Record";
+"Income" = "Income";
+"Expenditure" = "Expenditure";
+"Money" = "Money";
+"Revenue Way" = "Revenue Way";
+"Income Type" = "Income Type";
+"Income Detail" = "Income Detail";
+"Recorded Address" = "Recorded Address";
+"Income Date" = "Income Date";
+"Income Target" = "Income Target";
+"Save" = "Save";
+"Delete" = "Delete";
+"Payment Type" = "Payment Type";
+"Expenditure Detail" = "Expenditure Detail";
+"Payment Method" = "Payment Method";
+"Expenditure Date" = "Expenditure Date";
+"Expenditure Target" = "Expenditure Target";
+"Clothes" = "Clothes";
+"Foods" = "Foods";
+"Rent" = "Rent";
+"Traffic" = "Traffic";
+"Entertainment" = "Entertainment";
+"Medical Care" = "Medical Care";
+"Necessary" = "Necessary";
+"Cosmetology" = "Cosmetology";
+"Education" = "Education";
+"Social" = "Social";
+"Donate" = "Donate";
+"Cash gift" = "Cash gift";
+/*“其他”分开用*/
+"Others" = "Others";
+
+"Other income" = "Other income";
+"Other expenses" = "Other expenses";
+"Other people" = "Other people";
+
+
+
+
+/*“其他”分开用*/
+"Family" = "Family";
+"Me" = "Me";
+"Spouse" = "Spouse";
+"Parents" = "Parents";
+"Children" = "Children";
+"Saved successfully" = "Saved successfully！";
+"Save failed" = "Save failed！";
+"Modify failed" = "Modify failed！";
+"Budget Settings" = "Budget Settings";
+"Income Template" = "Income Template";
+"Expenditure Template" = "Expenditure Template";
+
+"Income Type Settings" = "Income Type Settings";
+"Payment Type Settings" = "Payment Type Settings";
+
+"Today" = "Today";
+"Yesterday" = "Yesterday";
+
+"Salary" = "Salary";
+"Bonus" = "Bonus";
+"Financing Income" = "Financing Income";
+"Part-time Income" = "Part-time Income";
+"Red Packet" = "Red Packet";
+
+
+"Wechat Pay" = "Wechat Pay";
+"Ali Pay" = "Ali Pay";
+"Union Pay" = "Union Pay";
+"Cash Pay" = "Cash Pay";
+
+"Income and expenditure" = " Overview";
+"Income this month" = "Income： ";
+"expenditure this month" = "Expenditure： ";
+"Expenditure budget" = "Expenditure budget： ";
+"Budget balance" = "Budget balance： ";
+"Balance for this month" = "Balance for this month： ";
+
+"History record" = "History";
+"Recent record" = "Recent record";
+
+"Month Details" = "Month Details";
+
+"Sum" = "Sum： ";
+"Overview" = "Overview";
+"Income budget" = "Income budget： ";
+"Real income" = "Real income： ";
+"Expenditure budget" = "Expenditure budget： ";
+"Real Expenditure" = "Real Expend： ";
+
+"All records" = "All records";
+
+"Normal" = "Normal";
+
+"Over budget" = "Over budget";
+
+"Fail to accomplish" = "Failed";
+"History report" = "History";
+"Changes" = "Changes in recent months";
+"DayChanges" = "Changes in recent days";
+
+
+"Month" = "";
+"No data" = "No data";
+
+"Kindly Reminder" = "Kindly Reminder";
+
+"Got it" = "Got it";
+"Remind me later" = "Remind me later";
+"Confirm" = "Confirm";
+"Set immediately" = "Set immediately";
+"No set" = "There is no need to set up here";
+"set it now？" = "Have not set a budget, set it up now?";
+"Data can not be restored" = "Data can not be restored after the deletion, whether to continue?";
+
+"Unfilled" = "Unfilled";
+"Accumulated income" = "Accumulated income：";
+"Cumulative expenditures" = "Accum-Expend：";
+
+"Number of records" = "Number of records：";
+"Start time" = "Start time：";
+"Accumulated balance" = "Accumulated balance：";
+
+"Query the records" = "Query the records";
+"End time" = "End time： ";
+"Queries Now" = "Queries Now";
+"All records" = "All records";
+"Corresponding month" = "Corresponding month： ";
+
+"Add item" = "Add item（+）";
+"Added" = "Added";
+"Security question setting" = "Security question setting";
+"Gesture password setting" = "Gesture password setting";
+"Question 1" = "Question 1：";
+"Question 2" = "Question 2：";
+"Question 3" = "Question 3：";
+"Please enter the answer" = "Please enter the answer";
+"Modify gesture password" = "Modify gesture password";
+"Original gesture password" = "Original gesture password";
+"Password is wrong" = "Password is wrong, you can last try ";
+"Times" = " times";
+
+"Close gesture password" = "Close gesture password";
+"5 times" = "The number of errors has reached 5 times";
+
+"Sorry" = "Sorry！";
+"Exit immediately" = "Exit immediately";
+"Congratulations" = "Congratulations！";
+"Verification failed" = "Verification failed, please exit!";
+
+"Verify security question" = "Verify security question";
+
+"Gesture password" = "Gesture password";
+"Please draw the gesture password" = "Please draw the gesture password";
+"Please draw a new gesture password" = "Please draw a new gesture password";
+"Draw again to confirm" = "Draw again to confirm";
+
+"Confirm success" = "Confirm success";
+
+"Inconsistent" = "Inconsistent, please redraw";
+
+"Connect at least 4 points, please redraw" = "Connect at least 4 points, please redraw";
+"Deleted successfully" = "Deleted successfully";
+"Delete failed" = "Delete failed";
+"Please wait" = "Please wait...";
+
+"Verification is successful, the gesture password has been cleared!" = "Verification is successful, the gesture password has been cleared!";
+"The answer can not be empty" = "The answer can not be empty";
+"Please keep in mind the secret answer!" = "Please keep in mind the secret answer!";
+
+"Your first boss's name" = "Your first boss's name？";
+"The name of your high school class teacher" = "The name of your high school class teacher？";
+"The name of your best friend" = "The name of your best friend？";
+"Where did you go for the first time by plane" = "Where did you go by plane for the first time?";
+"Where did you go by train for the first time" = "Where did you go by train for the first time?";
+"Where did you go by ship for the first time" = "Where did you go by ship for the first time?";
+"What is your ideal job" = "What is your ideal job?";
+
+"What is your first nickname" = "What is your first nickname？";
+
+"Who is your favorite singer" = "Who is your favorite singer？";
+"Please set the security problem first" = "Please set the security problem first";
+
+"¥" = " $";
+
+"Please draw the gesture to unlock" = "Please draw the gesture to unlock";
+
+"Currency Unit" = "Currency Unit";
+"Select the currency unit" = " Select units：";
+
+"Initial Assets" = "Initial Assets";
+"Total Assets" = "Total Assets:";
+
+"Daily report" = "Daily" ;
+"Monthly report" = "Monthly";
+"Change in recent days" = "Change in recent days";
+"no record" = "  No Records!";
+"Jan." = "Jan.";
+"Feb." = "Feb.";
+"Mar." = "Mar.";
+"Apr." = "Apr.";
+"May." = "May.";
+"Jun." = "Jun.";
+"Jul." = "Jul.";
+"Aug." = "Aug.";
+"Sept."= "Sept.";
+"Oct." = "Oct.";
+"Nov." = "Nov.";
+"Dec." = "Dec.";
+"Sun" = "Sun";
+"Mon" = "Mon";
+"Tues" = "Tues";
+"Wed" = "Wed";
+"Thur" = "Thur";
+"Fri" = "Fri";
+"Sat" = "Sat";
+
+"day income" = "Income";
+"day expenditure" = "Expenditure";
+"rate desc" = "Hello, congratulations you have become a senior user of the software, you must have some want to say, please give me some of your feedback！";
+"Touch ID" = "Touch ID Fingerprint unlock";
+
+
+"kTouchIDLocalizedReasonKey" = "Home key to verify fingerprint unlock";
+"kTouchIDNotEvaluatePolicyKey" = "You have not set the fingerprint (Touch ID), please add fingerprints in the phone system  Settings -> Touch ID & Password ";
+"kTouchIDEvaluateSuccess" = "Fingerprint unlock open successfully";
+"kTouchIDEvaluateFailed" = "verification failed";
+"kTouchIDResetSystemTouchIDTips" = "Fingerprint verification failed, please restart the system.";
+"kTouchIDClickEvaluateUnlock" = "Click Verify Fingerprint";
+"kTouchIDClickSetUnlock" = "Click to set fingerprint to unlock";
+"kTouchIDCloseSuccess" = "Fingerprint-unlock closed successfully";
+"Dear User" = "Dear User";
+
+"Share" = "Share";
+

@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02816288E578AE100C4FA4B5 /* Pods_FamilyAccountBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B3E7C203AA4CDF35E4E8F1D /* Pods_FamilyAccountBook.framework */; };
+		CB37B83E22AB755D0098F330 /* FABMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CB37B83D22AB755D0098F330 /* FABMainVC.m */; };
+		CB37B84122AB75980098F330 /* FABMyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CB37B84022AB75980098F330 /* FABMyVC.m */; };
+		CB37B84422AB75B50098F330 /* FABReportFormVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CB37B84322AB75B50098F330 /* FABReportFormVC.m */; };
+		CB37B84722AB75D20098F330 /* FABAccountVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CB37B84622AB75D20098F330 /* FABAccountVC.m */; };
+		CB37B84B22AB7A4D0098F330 /* FABNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB37B84A22AB7A4D0098F330 /* FABNavigationController.m */; };
+		CB37B86122AB8D9B0098F330 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB37B86322AB8D9B0098F330 /* Localizable.strings */; };
+		CB37B86822AB8F200098F330 /* UINavigationBar+FABHidBottomLine.m in Sources */ = {isa = PBXBuildFile; fileRef = CB37B86722AB8F200098F330 /* UINavigationBar+FABHidBottomLine.m */; };
+		CB37B86D22AB90E90098F330 /* FABBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CB37B86C22AB90E90098F330 /* FABBaseVC.m */; };
 		CB4864C722A570D50006A775 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4864C622A570D50006A775 /* AppDelegate.m */; };
 		CB4864CA22A570D50006A775 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4864C922A570D50006A775 /* ViewController.m */; };
 		CB4864CD22A570D50006A775 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4864CB22A570D50006A775 /* Main.storyboard */; };
@@ -16,6 +25,29 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25BFF8380E4DF99C251AD673 /* Pods-FamilyAccountBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FamilyAccountBook.debug.xcconfig"; path = "Target Support Files/Pods-FamilyAccountBook/Pods-FamilyAccountBook.debug.xcconfig"; sourceTree = "<group>"; };
+		2B3E7C203AA4CDF35E4E8F1D /* Pods_FamilyAccountBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FamilyAccountBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB37B83C22AB755D0098F330 /* FABMainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FABMainVC.h; sourceTree = "<group>"; };
+		CB37B83D22AB755D0098F330 /* FABMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FABMainVC.m; sourceTree = "<group>"; };
+		CB37B83F22AB75980098F330 /* FABMyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FABMyVC.h; sourceTree = "<group>"; };
+		CB37B84022AB75980098F330 /* FABMyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FABMyVC.m; sourceTree = "<group>"; };
+		CB37B84222AB75B50098F330 /* FABReportFormVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FABReportFormVC.h; sourceTree = "<group>"; };
+		CB37B84322AB75B50098F330 /* FABReportFormVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FABReportFormVC.m; sourceTree = "<group>"; };
+		CB37B84522AB75D20098F330 /* FABAccountVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FABAccountVC.h; sourceTree = "<group>"; };
+		CB37B84622AB75D20098F330 /* FABAccountVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FABAccountVC.m; sourceTree = "<group>"; };
+		CB37B84922AB7A4D0098F330 /* FABNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FABNavigationController.h; sourceTree = "<group>"; };
+		CB37B84A22AB7A4D0098F330 /* FABNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FABNavigationController.m; sourceTree = "<group>"; };
+		CB37B84C22AB7AFD0098F330 /* FABColorMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FABColorMacro.h; sourceTree = "<group>"; };
+		CB37B84E22AB7CE80098F330 /* FamilyAccountBook.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FamilyAccountBook.pch; sourceTree = "<group>"; };
+		CB37B84F22AB7D290098F330 /* FABAppMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FABAppMacro.h; sourceTree = "<group>"; };
+		CB37B85622AB8A520098F330 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		CB37B85722AB8A520098F330 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		CB37B86222AB8D9B0098F330 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CB37B86422AB8DA00098F330 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CB37B86622AB8F200098F330 /* UINavigationBar+FABHidBottomLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+FABHidBottomLine.h"; sourceTree = "<group>"; };
+		CB37B86722AB8F200098F330 /* UINavigationBar+FABHidBottomLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+FABHidBottomLine.m"; sourceTree = "<group>"; };
+		CB37B86B22AB90E90098F330 /* FABBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FABBaseVC.h; sourceTree = "<group>"; };
+		CB37B86C22AB90E90098F330 /* FABBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FABBaseVC.m; sourceTree = "<group>"; };
 		CB4864C222A570D50006A775 /* FamilyAccountBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FamilyAccountBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB4864C522A570D50006A775 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB4864C622A570D50006A775 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +58,7 @@
 		CB4864D122A570D80006A775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB4864D322A570D80006A775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB4864D422A570D80006A775 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6C8933C09BC0947C29DB520 /* Pods-FamilyAccountBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FamilyAccountBook.release.xcconfig"; path = "Target Support Files/Pods-FamilyAccountBook/Pods-FamilyAccountBook.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +66,162 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02816288E578AE100C4FA4B5 /* Pods_FamilyAccountBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		642CC4F3A0B7D8EEF61D36AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25BFF8380E4DF99C251AD673 /* Pods-FamilyAccountBook.debug.xcconfig */,
+				D6C8933C09BC0947C29DB520 /* Pods-FamilyAccountBook.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CB37B83122AB74450098F330 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB37B85022AB88F40098F330 /* LocalizableStrings */,
+				CB37B84E22AB7CE80098F330 /* FamilyAccountBook.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB37B83222AB744F0098F330 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CB37B83322AB74570098F330 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		CB37B83422AB74650098F330 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CB4864C522A570D50006A775 /* AppDelegate.h */,
+				CB4864C622A570D50006A775 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CB37B83522AB74700098F330 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				CB37B83B22AB74E40098F330 /* Account */,
+				CB37B83A22AB74DC0098F330 /* ReportForm */,
+				CB37B83922AB74CE0098F330 /* My */,
+				CB37B83822AB74AB0098F330 /* Main */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		CB37B83622AB747C0098F330 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				CB37B86922AB90A40098F330 /* Base */,
+				CB37B86522AB8E420098F330 /* Categories */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		CB37B83722AB74860098F330 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				CB37B84C22AB7AFD0098F330 /* FABColorMacro.h */,
+				CB37B84F22AB7D290098F330 /* FABAppMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		CB37B83822AB74AB0098F330 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CB37B83C22AB755D0098F330 /* FABMainVC.h */,
+				CB37B83D22AB755D0098F330 /* FABMainVC.m */,
+				CB37B84922AB7A4D0098F330 /* FABNavigationController.h */,
+				CB37B84A22AB7A4D0098F330 /* FABNavigationController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CB37B83922AB74CE0098F330 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				CB37B83F22AB75980098F330 /* FABMyVC.h */,
+				CB37B84022AB75980098F330 /* FABMyVC.m */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		CB37B83A22AB74DC0098F330 /* ReportForm */ = {
+			isa = PBXGroup;
+			children = (
+				CB37B84222AB75B50098F330 /* FABReportFormVC.h */,
+				CB37B84322AB75B50098F330 /* FABReportFormVC.m */,
+			);
+			path = ReportForm;
+			sourceTree = "<group>";
+		};
+		CB37B83B22AB74E40098F330 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				CB37B84522AB75D20098F330 /* FABAccountVC.h */,
+				CB37B84622AB75D20098F330 /* FABAccountVC.m */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		CB37B85022AB88F40098F330 /* LocalizableStrings */ = {
+			isa = PBXGroup;
+			children = (
+				CB37B86322AB8D9B0098F330 /* Localizable.strings */,
+			);
+			path = LocalizableStrings;
+			sourceTree = "<group>";
+		};
+		CB37B86522AB8E420098F330 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				CB37B86622AB8F200098F330 /* UINavigationBar+FABHidBottomLine.h */,
+				CB37B86722AB8F200098F330 /* UINavigationBar+FABHidBottomLine.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		CB37B86922AB90A40098F330 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CB37B86A22AB90B00098F330 /* BaseVC */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CB37B86A22AB90B00098F330 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				CB37B86B22AB90E90098F330 /* FABBaseVC.h */,
+				CB37B86C22AB90E90098F330 /* FABBaseVC.m */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
 		CB4864B922A570D50006A775 = {
 			isa = PBXGroup;
 			children = (
 				CB4864C422A570D50006A775 /* FamilyAccountBook */,
 				CB4864C322A570D50006A775 /* Products */,
+				642CC4F3A0B7D8EEF61D36AD /* Pods */,
+				F3E7BA89BE00A9732EFA655A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +236,13 @@
 		CB4864C422A570D50006A775 /* FamilyAccountBook */ = {
 			isa = PBXGroup;
 			children = (
-				CB4864C522A570D50006A775 /* AppDelegate.h */,
-				CB4864C622A570D50006A775 /* AppDelegate.m */,
+				CB37B83422AB74650098F330 /* AppDelegate */,
+				CB37B83522AB74700098F330 /* Sections */,
+				CB37B83722AB74860098F330 /* Macro */,
+				CB37B83622AB747C0098F330 /* General */,
+				CB37B83322AB74570098F330 /* Vendors */,
+				CB37B83222AB744F0098F330 /* Resources */,
+				CB37B83122AB74450098F330 /* Supporting Files */,
 				CB4864C822A570D50006A775 /* ViewController.h */,
 				CB4864C922A570D50006A775 /* ViewController.m */,
 				CB4864CB22A570D50006A775 /* Main.storyboard */,
@@ -71,6 +254,14 @@
 			path = FamilyAccountBook;
 			sourceTree = "<group>";
 		};
+		F3E7BA89BE00A9732EFA655A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B3E7C203AA4CDF35E4E8F1D /* Pods_FamilyAccountBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +269,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB4864D822A570D80006A775 /* Build configuration list for PBXNativeTarget "FamilyAccountBook" */;
 			buildPhases = (
+				B3981D058B7C892E57B06B0D /* [CP] Check Pods Manifest.lock */,
 				CB4864BE22A570D50006A775 /* Sources */,
 				CB4864BF22A570D50006A775 /* Frameworks */,
 				CB4864C022A570D50006A775 /* Resources */,
+				C73D007507E411E0DC5F250C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -112,6 +305,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = CB4864B922A570D50006A775;
 			productRefGroup = CB4864C322A570D50006A775 /* Products */;
@@ -128,6 +322,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB37B86122AB8D9B0098F330 /* Localizable.strings in Resources */,
 				CB4864D222A570D80006A775 /* LaunchScreen.storyboard in Resources */,
 				CB4864CF22A570D80006A775 /* Assets.xcassets in Resources */,
 				CB4864CD22A570D50006A775 /* Main.storyboard in Resources */,
@@ -136,12 +331,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B3981D058B7C892E57B06B0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FamilyAccountBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C73D007507E411E0DC5F250C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FamilyAccountBook/Pods-FamilyAccountBook-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/LKDBHelper/LKDBHelper.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LKDBHelper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FamilyAccountBook/Pods-FamilyAccountBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CB4864BE22A570D50006A775 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CB4864CA22A570D50006A775 /* ViewController.m in Sources */,
+				CB37B86D22AB90E90098F330 /* FABBaseVC.m in Sources */,
+				CB37B86822AB8F200098F330 /* UINavigationBar+FABHidBottomLine.m in Sources */,
+				CB37B84B22AB7A4D0098F330 /* FABNavigationController.m in Sources */,
+				CB37B84722AB75D20098F330 /* FABAccountVC.m in Sources */,
+				CB37B84122AB75980098F330 /* FABMyVC.m in Sources */,
+				CB37B84422AB75B50098F330 /* FABReportFormVC.m in Sources */,
+				CB37B83E22AB755D0098F330 /* FABMainVC.m in Sources */,
 				CB4864D522A570D80006A775 /* main.m in Sources */,
 				CB4864C722A570D50006A775 /* AppDelegate.m in Sources */,
 			);
@@ -150,10 +409,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		CB37B86322AB8D9B0098F330 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB37B86222AB8D9B0098F330 /* en */,
+				CB37B86422AB8DA00098F330 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		CB4864CB22A570D50006A775 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CB4864CC22A570D50006A775 /* Base */,
+				CB37B85622AB8A520098F330 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -162,6 +431,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				CB4864D122A570D80006A775 /* Base */,
+				CB37B85722AB8A520098F330 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -173,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -232,6 +503,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -283,9 +555,12 @@
 		};
 		CB4864D922A570D80006A775 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25BFF8380E4DF99C251AD673 /* Pods-FamilyAccountBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FamilyAccountBook/Supporting Files/FamilyAccountBook.pch";
 				INFOPLIST_FILE = FamilyAccountBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,15 +568,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lg.scu.FamilyAccountBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		CB4864DA22A570D80006A775 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6C8933C09BC0947C29DB520 /* Pods-FamilyAccountBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FamilyAccountBook/Supporting Files/FamilyAccountBook.pch";
 				INFOPLIST_FILE = FamilyAccountBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +588,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lg.scu.FamilyAccountBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

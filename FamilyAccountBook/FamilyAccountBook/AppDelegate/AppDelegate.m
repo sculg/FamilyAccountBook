@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "FABMainVC.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = self.mainVC;
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
@@ -48,4 +53,18 @@
 }
 
 
+#pragma mark - Initialize Methods
+#pragma mark - Life Cycle
+#pragma mark - Super Methods
+#pragma mark - Private Methods
+#pragma mark - Public Methods
+#pragma mark - Event
+#pragma mark - <<#Delegate#>>
+#pragma mark - Property
+- (FABMainVC *)mainVC {
+    if (!_mainVC) {
+        _mainVC = [[FABMainVC alloc] init];
+    }
+    return _mainVC;
+}
 @end

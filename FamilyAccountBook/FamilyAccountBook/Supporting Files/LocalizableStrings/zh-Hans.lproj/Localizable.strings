@@ -1,0 +1,239 @@
+/* 
+  Localizable.strings
+  FamilyAccountBook
+
+  Created by lg on 2019/6/8.
+  Copyright © 2019 sculg. All rights reserved.
+*/
+
+"Account" = "记账";
+"Report"  = "报表";
+"Me"      = "我";
+"Total Wealth" = "总财富";
+"Security Settings" = "安全设置";
+"Data Management" = "数据管理";
+"General Settings" = "通用设置";
+"Help Center" = "意见反馈";
+"About Us" = "关于我们";
+"Rate Me" = "给我评分";
+"Add A Record" = "我要记账";
+"Income" = "收入";
+"Expenditure" = "支出";
+"Money" = "金       额";
+"Revenue Way" = "收入方式";
+"Income Type" = "收入类型";
+"Income Detail" = "具体项目";
+"Recorded Address" = "记录地址";
+"Income Date" = "收入时间";
+"Income Target" = "收入对象";
+"Save" = "保存";
+"Delete" = "删除记录";
+"Payment Type" = "支出类型";
+"Expenditure Detail" = "具体项目";
+"Payment Method" = "支付方式";
+"Expenditure Date" = "支出时间";
+"Expenditure Target" = "支出对象";
+"Clothes" = "衣服";
+"Foods" = "食物";
+"Rent" = "租金";
+"Traffic" = "交通";
+"Entertainment" = "娱乐";
+"Medical Care" = "医疗";
+"Necessary" = "日用品";
+"Cosmetology" = "美容";
+"Education" = "教育";
+"Social" = "社交";
+"Donate" = "捐赠";
+"Cash gift" = "礼金";
+/*“其他”分开用*/
+"Others" = "其他";
+
+"Other income" = "其他收入";
+"Other expenses" = "其他支出";
+"Other people" = "其他人";
+
+
+/*“其他”分开用*/
+
+"Family" = "家庭";
+"Me" = "我";
+"Spouse" = "配偶";
+"Parents" = "父母";
+"Children" = "孩子";
+"Saved successfully" = "保存成功！";
+"Save failed" = "保存失败！";
+"Modify failed" = "修改失败！";
+"Successfully modified" = "修改成功！";
+"Budget Settings" = "预算设置";
+"Income Template" = "收入模版";
+
+"Expenditure Template" = "支出模版";
+
+"Income Type Settings" = "收入类型";
+"Payment Type Settings" = "支出类型";
+
+"Today" = "今天";
+"Yesterday" = "昨天";
+"Salary" = "工资";
+"Bonus" = "奖金";
+"Financing Income" = "理财";
+"Part-time Income" = "兼职";
+"Red Packet" = "红包";
+
+"Wechat Pay" = "微信支付";
+"Ali Pay" = "支付宝";
+"Union Pay" = "银联支付";
+"Cash Pay" = "现金";
+
+"Income and expenditure" = "月收支";
+"Income this month" = "本月收入： ";
+"expenditure this month" = "本月支出： ";
+"Expenditure budget" = "支出预算： ";
+"Budget balance" = "预算余额： ";
+"Balance for this month" = "本月总结余： ";
+
+"History record" = "历史记录";
+"Recent record" = "最近记录";
+
+"Month Details" = "本月收支详情";
+
+
+"Sum" = "合计：";
+"Overview" = "概况";
+"Income budget" = "收入预算：";
+"Real income" = "实际收入：";
+"Expenditure budget" = "支出预算：";
+"Real Expenditure" = "实际支出：";
+
+"All records" = "所有记录";
+"Normal" = "正常";
+"Over budget" = "超过预算";
+"Fail to accomplish" = "未达标";
+
+"History report" = "历史报表";
+
+"Changes" = "近月收支总额变化";
+"DayChanges" = "近日收支变化";
+
+"Month" = "月";
+"No data" = "暂时还没数据哦，\n快去添加记录吧！";
+"Kindly Reminder" = "温馨提示";
+"Got it" = "知道了";
+"Remind me later" = "以后再说";
+"Confirm" = "确认删除";
+"Set immediately" = "马上设置";
+"No set" = "此处默认为记录发生时间，此处模板无需设置!";
+"set it now？" = "您还没有设置本月的收支预算，是否马上设置？";
+"Data can not be restored" = "数据删除后将无法恢复，是否继续？";
+
+"Unfilled" = "未填写";
+"Accumulated income" = "累计收入：";
+"Cumulative expenditures" = "累计支出：";
+"Number of records" = "记录笔数：";
+"Start time" = "起始时间：";
+"Accumulated balance" = "累计总结余：";
+
+"Query the records" = "查询记录";
+"End time" = "结束时间： ";
+"Queries Now" = "立即查询";
+"All records" = "全部记录";
+"Corresponding month" = "对应月份： ";
+"Add item" = "添加项目（+）";
+"Added" = "自选";
+"Security question setting" = "密保问题设置";
+"Gesture password setting" = "手势密码设置";
+"Question 1" = "密保问题1：";
+"Question 2" = "密保问题2：";
+"Question 3" = "密保问题3：";
+"Please enter the answer" = "请输入答案";
+
+"Modify gesture password" = "修改手势密码";
+"Original gesture password" = "请绘制原手势密码";
+"Password is wrong" = "密码错误，您还可以重试";
+"Times" = "次";
+"Close gesture password" = "关闭手势密码";
+"5 times" = "错误次数已经达到5次";
+"Sorry" = "抱歉！";
+"Exit immediately" = "立即退出";
+"Congratulations" = "恭喜！";
+"Verification failed" = "密保问题验证失败，请退出财管家！";
+"Verify security question" = "验证密保问题";
+"Gesture password" = "手势密码";
+
+"Please draw the gesture password" = "请绘制手势密码";
+"Please draw a new gesture password" = "请绘制新手势密码";
+
+"Draw again to confirm" = "再次绘制以确认";
+"Confirm success" = "确认成功";
+"Inconsistent" = "不一致，请重新绘制";
+"Connect at least 4 points, please redraw" = "至少连接4个点，请重新绘制";
+
+"Deleted successfully" = "删除成功";
+"Delete failed" = "删除失败";
+"Please wait" = "请稍候...";
+
+"Verification is successful, the gesture password has been cleared!" = "密保问题验证成功，手势密码已经被清空！";
+"The answer can not be empty" = "答案不能为空";
+"Please keep in mind the secret answer!" = "密保问题用于忘记手势密码后重置手势密码，设置后请牢记！";
+
+"Your first boss's name" = "你第一个上司的名字？";
+
+"The name of your high school class teacher" = "你高中班主任的名字？";
+"The name of your best friend" = "你最好的朋友的名字？";
+"Where did you go for the first time by plane" = "你第一次乘飞机是去哪里?";
+"Where did you go by train for the first time" = "你第一次坐火车是去哪里?";
+"Where did you go by ship for the first time" = "你第一次坐船是去哪里?";
+"What is your ideal job" = "你理想的工作是什么?";
+"What is your first nickname" = "你的第一个绰号是什么？";
+"Who is your favorite singer" = "你最喜欢的歌手是谁？";
+"Please set the security problem first" = "系统检测到您还未设置密保，请先设置密保问题";
+"¥" = " ¥";
+"Please draw the gesture to unlock" = "请绘制手势解锁";
+
+"Currency Unit" = "货币单位";
+"Select the currency unit" = "选择货币单位：";
+
+
+"Initial Assets" = "初始资产";
+"Total Assets" = "资产合计：";
+
+"Daily report" = "日报表";
+"Monthly report" = "月报表";
+"Change in recent days" = "近日收支变化";
+"no record" = "日无账单记录！";
+"Jan." = "一月.";
+"Feb." = "二月.";
+"Mar." = "三月.";
+"Apr." = "四月.";
+"May." = "五月.";
+"Jun." = "六月.";
+"Jul." = "七月.";
+"Aug." = "八月.";
+"Sept." = "九月.";
+"Oct." = "十月.";
+"Nov." = "十一月.";
+"Dec." = "十二月.";
+"Sun" = "周日";
+"Mon" = "周一";
+"Tues" = "周二";
+"Wed" = "周三";
+"Thur" = "周四";
+"Fri" = "周五";
+"Sat" = "周六";
+
+"day income" = "日收入";
+"day expenditure" = "日支出";
+"rate desc" = "您好，恭喜您已经成为财管家资深用户，您一定有一些想说的话，请给我一些您的反馈吧！";
+
+"Touch ID" = "Touch ID 指纹解锁";
+"kTouchIDLocalizedReasonKey" = "Home键验证指纹解锁财管家";
+"kTouchIDNotEvaluatePolicyKey" = "您尚未设置指纹（Touch ID），请在手机系统 \设置->Touch ID与密码\中添加指纹";
+"kTouchIDEvaluateSuccess" = "成功开启指纹解锁";
+"kTouchIDEvaluateFailed" = "验证失败";
+"kTouchIDResetSystemTouchIDTips" = "指纹校验失败，请重启系统Touch ID后验证";
+"kTouchIDClickEvaluateUnlock" = "点击验证指纹解锁";
+"kTouchIDClickSetUnlock" = "点击设置指纹解锁";
+"kTouchIDCloseSuccess" = "指纹解锁关闭成功";
+"Dear User" = "尊敬的财管家用户";
+"Share" = "分享财管家";
+

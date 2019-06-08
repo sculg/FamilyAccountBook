@@ -1,0 +1,20 @@
+//
+//  FamilyAccountBook.pch
+//  FamilyAccountBook
+//
+//  Created by lg on 2019/6/8.
+//  Copyright © 2019 sculg. All rights reserved.
+//
+
+#ifndef FamilyAccountBook_pch
+#define FamilyAccountBook_pch
+
+#import <Availability.h>
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "FABAppMacro.h"
+#endif
+
+#endif /* FamilyAccountBook_pch */

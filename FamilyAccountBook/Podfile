@@ -1,0 +1,9 @@
+platform :ios, '8.0'
+
+target 'FamilyAccountBook' do use_frameworks!
+pod 'Masonry', '0.6.3'
+pod 'YYModel', '0.9.7'
+pod 'LKDBHelper'
+pod 'Charts' , '3.3.0'
+pod 'MBProgressHUD'
+end
