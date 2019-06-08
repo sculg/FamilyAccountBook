@@ -16,6 +16,14 @@
 		CB37B86122AB8D9B0098F330 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB37B86322AB8D9B0098F330 /* Localizable.strings */; };
 		CB37B86822AB8F200098F330 /* UINavigationBar+FABHidBottomLine.m in Sources */ = {isa = PBXBuildFile; fileRef = CB37B86722AB8F200098F330 /* UINavigationBar+FABHidBottomLine.m */; };
 		CB37B86D22AB90E90098F330 /* FABBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CB37B86C22AB90E90098F330 /* FABBaseVC.m */; };
+		CB37B87322AB9CEC0098F330 /* FABAddAccountVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CB37B87222AB9CEC0098F330 /* FABAddAccountVC.m */; };
+		CB37B87622AB9D110098F330 /* FABAddExpenditureAccountVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CB37B87522AB9D110098F330 /* FABAddExpenditureAccountVC.m */; };
+		CB37B87922AB9D250098F330 /* FABAddIncomeAccountVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CB37B87822AB9D250098F330 /* FABAddIncomeAccountVC.m */; };
+		CB37B88522ABAF870098F330 /* FABAccountHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB37B88422ABAF870098F330 /* FABAccountHeaderView.m */; };
+		CB37B88B22ABAFBA0098F330 /* FABAccountHeaderViewVM.m in Sources */ = {isa = PBXBuildFile; fileRef = CB37B88A22ABAFBA0098F330 /* FABAccountHeaderViewVM.m */; };
+		CB37B88F22ABB2420098F330 /* FABShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB37B88E22ABB2420098F330 /* FABShadowView.m */; };
+		CB37B89322ABC2150098F330 /* FABAccountHeaderBlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB37B89222ABC2150098F330 /* FABAccountHeaderBlockView.m */; };
+		CB37B89622ABC2790098F330 /* FABAccountHeaderBlockViewVM.m in Sources */ = {isa = PBXBuildFile; fileRef = CB37B89522ABC2790098F330 /* FABAccountHeaderBlockViewVM.m */; };
 		CB4864C722A570D50006A775 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4864C622A570D50006A775 /* AppDelegate.m */; };
 		CB4864CA22A570D50006A775 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4864C922A570D50006A775 /* ViewController.m */; };
 		CB4864CD22A570D50006A775 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4864CB22A570D50006A775 /* Main.storyboard */; };
@@ -48,6 +56,23 @@
 		CB37B86722AB8F200098F330 /* UINavigationBar+FABHidBottomLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+FABHidBottomLine.m"; sourceTree = "<group>"; };
 		CB37B86B22AB90E90098F330 /* FABBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FABBaseVC.h; sourceTree = "<group>"; };
 		CB37B86C22AB90E90098F330 /* FABBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FABBaseVC.m; sourceTree = "<group>"; };
+		CB37B87122AB9CEC0098F330 /* FABAddAccountVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FABAddAccountVC.h; sourceTree = "<group>"; };
+		CB37B87222AB9CEC0098F330 /* FABAddAccountVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FABAddAccountVC.m; sourceTree = "<group>"; };
+		CB37B87422AB9D110098F330 /* FABAddExpenditureAccountVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FABAddExpenditureAccountVC.h; sourceTree = "<group>"; };
+		CB37B87522AB9D110098F330 /* FABAddExpenditureAccountVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FABAddExpenditureAccountVC.m; sourceTree = "<group>"; };
+		CB37B87722AB9D250098F330 /* FABAddIncomeAccountVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FABAddIncomeAccountVC.h; sourceTree = "<group>"; };
+		CB37B87822AB9D250098F330 /* FABAddIncomeAccountVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FABAddIncomeAccountVC.m; sourceTree = "<group>"; };
+		CB37B88322ABAF870098F330 /* FABAccountHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FABAccountHeaderView.h; sourceTree = "<group>"; };
+		CB37B88422ABAF870098F330 /* FABAccountHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FABAccountHeaderView.m; sourceTree = "<group>"; };
+		CB37B88922ABAFBA0098F330 /* FABAccountHeaderViewVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FABAccountHeaderViewVM.h; sourceTree = "<group>"; };
+		CB37B88A22ABAFBA0098F330 /* FABAccountHeaderViewVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FABAccountHeaderViewVM.m; sourceTree = "<group>"; };
+		CB37B88D22ABB2420098F330 /* FABShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FABShadowView.h; sourceTree = "<group>"; };
+		CB37B88E22ABB2420098F330 /* FABShadowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FABShadowView.m; sourceTree = "<group>"; };
+		CB37B89022ABB69F0098F330 /* FABFontMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FABFontMacro.h; sourceTree = "<group>"; };
+		CB37B89122ABC2150098F330 /* FABAccountHeaderBlockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FABAccountHeaderBlockView.h; sourceTree = "<group>"; };
+		CB37B89222ABC2150098F330 /* FABAccountHeaderBlockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FABAccountHeaderBlockView.m; sourceTree = "<group>"; };
+		CB37B89422ABC2790098F330 /* FABAccountHeaderBlockViewVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FABAccountHeaderBlockViewVM.h; sourceTree = "<group>"; };
+		CB37B89522ABC2790098F330 /* FABAccountHeaderBlockViewVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FABAccountHeaderBlockViewVM.m; sourceTree = "<group>"; };
 		CB4864C222A570D50006A775 /* FamilyAccountBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FamilyAccountBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB4864C522A570D50006A775 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB4864C622A570D50006A775 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -85,8 +110,8 @@
 		CB37B83122AB74450098F330 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CB37B85022AB88F40098F330 /* LocalizableStrings */,
 				CB37B84E22AB7CE80098F330 /* FamilyAccountBook.pch */,
+				CB37B85022AB88F40098F330 /* LocalizableStrings */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -139,6 +164,7 @@
 			children = (
 				CB37B84C22AB7AFD0098F330 /* FABColorMacro.h */,
 				CB37B84F22AB7D290098F330 /* FABAppMacro.h */,
+				CB37B89022ABB69F0098F330 /* FABFontMacro.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -175,8 +201,10 @@
 		CB37B83B22AB74E40098F330 /* Account */ = {
 			isa = PBXGroup;
 			children = (
-				CB37B84522AB75D20098F330 /* FABAccountVC.h */,
-				CB37B84622AB75D20098F330 /* FABAccountVC.m */,
+				CB37B88222ABA0EC0098F330 /* FABAccount */,
+				CB37B86E22AB9C370098F330 /* FABAddAccount */,
+				CB37B87022AB9C820098F330 /* FABAddExpenditureAccount */,
+				CB37B86F22AB9C6A0098F330 /* FABAddIncomeAccount */,
 			);
 			path = Account;
 			sourceTree = "<group>";
@@ -201,6 +229,7 @@
 		CB37B86922AB90A40098F330 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				CB37B88C22ABB1FB0098F330 /* BaseView */,
 				CB37B86A22AB90B00098F330 /* BaseVC */,
 			);
 			path = Base;
@@ -213,6 +242,123 @@
 				CB37B86C22AB90E90098F330 /* FABBaseVC.m */,
 			);
 			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		CB37B86E22AB9C370098F330 /* FABAddAccount */ = {
+			isa = PBXGroup;
+			children = (
+				CB37B88122AB9D8B0098F330 /* Model */,
+				CB37B88022AB9D830098F330 /* ViewModel */,
+				CB37B87F22AB9D7C0098F330 /* View */,
+				CB37B87E22AB9D740098F330 /* VC */,
+			);
+			path = FABAddAccount;
+			sourceTree = "<group>";
+		};
+		CB37B86F22AB9C6A0098F330 /* FABAddIncomeAccount */ = {
+			isa = PBXGroup;
+			children = (
+				CB37B87722AB9D250098F330 /* FABAddIncomeAccountVC.h */,
+				CB37B87822AB9D250098F330 /* FABAddIncomeAccountVC.m */,
+			);
+			path = FABAddIncomeAccount;
+			sourceTree = "<group>";
+		};
+		CB37B87022AB9C820098F330 /* FABAddExpenditureAccount */ = {
+			isa = PBXGroup;
+			children = (
+				CB37B87422AB9D110098F330 /* FABAddExpenditureAccountVC.h */,
+				CB37B87522AB9D110098F330 /* FABAddExpenditureAccountVC.m */,
+			);
+			path = FABAddExpenditureAccount;
+			sourceTree = "<group>";
+		};
+		CB37B87A22AB9D450098F330 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				CB37B84522AB75D20098F330 /* FABAccountVC.h */,
+				CB37B84622AB75D20098F330 /* FABAccountVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		CB37B87B22AB9D4E0098F330 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB37B88322ABAF870098F330 /* FABAccountHeaderView.h */,
+				CB37B88422ABAF870098F330 /* FABAccountHeaderView.m */,
+				CB37B89122ABC2150098F330 /* FABAccountHeaderBlockView.h */,
+				CB37B89222ABC2150098F330 /* FABAccountHeaderBlockView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB37B87C22AB9D540098F330 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CB37B88922ABAFBA0098F330 /* FABAccountHeaderViewVM.h */,
+				CB37B88A22ABAFBA0098F330 /* FABAccountHeaderViewVM.m */,
+				CB37B89422ABC2790098F330 /* FABAccountHeaderBlockViewVM.h */,
+				CB37B89522ABC2790098F330 /* FABAccountHeaderBlockViewVM.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CB37B87D22AB9D5F0098F330 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB37B87E22AB9D740098F330 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				CB37B87122AB9CEC0098F330 /* FABAddAccountVC.h */,
+				CB37B87222AB9CEC0098F330 /* FABAddAccountVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		CB37B87F22AB9D7C0098F330 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB37B88022AB9D830098F330 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CB37B88122AB9D8B0098F330 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB37B88222ABA0EC0098F330 /* FABAccount */ = {
+			isa = PBXGroup;
+			children = (
+				CB37B87D22AB9D5F0098F330 /* Model */,
+				CB37B87C22AB9D540098F330 /* ViewModel */,
+				CB37B87B22AB9D4E0098F330 /* View */,
+				CB37B87A22AB9D450098F330 /* VC */,
+			);
+			path = FABAccount;
+			sourceTree = "<group>";
+		};
+		CB37B88C22ABB1FB0098F330 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				CB37B88D22ABB2420098F330 /* FABShadowView.h */,
+				CB37B88E22ABB2420098F330 /* FABShadowView.m */,
+			);
+			path = BaseView;
 			sourceTree = "<group>";
 		};
 		CB4864B922A570D50006A775 = {
@@ -397,12 +543,20 @@
 				CB37B86D22AB90E90098F330 /* FABBaseVC.m in Sources */,
 				CB37B86822AB8F200098F330 /* UINavigationBar+FABHidBottomLine.m in Sources */,
 				CB37B84B22AB7A4D0098F330 /* FABNavigationController.m in Sources */,
+				CB37B88F22ABB2420098F330 /* FABShadowView.m in Sources */,
 				CB37B84722AB75D20098F330 /* FABAccountVC.m in Sources */,
 				CB37B84122AB75980098F330 /* FABMyVC.m in Sources */,
 				CB37B84422AB75B50098F330 /* FABReportFormVC.m in Sources */,
+				CB37B87322AB9CEC0098F330 /* FABAddAccountVC.m in Sources */,
+				CB37B87622AB9D110098F330 /* FABAddExpenditureAccountVC.m in Sources */,
+				CB37B88522ABAF870098F330 /* FABAccountHeaderView.m in Sources */,
 				CB37B83E22AB755D0098F330 /* FABMainVC.m in Sources */,
+				CB37B89322ABC2150098F330 /* FABAccountHeaderBlockView.m in Sources */,
 				CB4864D522A570D80006A775 /* main.m in Sources */,
 				CB4864C722A570D50006A775 /* AppDelegate.m in Sources */,
+				CB37B87922AB9D250098F330 /* FABAddIncomeAccountVC.m in Sources */,
+				CB37B89622ABC2790098F330 /* FABAccountHeaderBlockViewVM.m in Sources */,
+				CB37B88B22ABAFBA0098F330 /* FABAccountHeaderViewVM.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

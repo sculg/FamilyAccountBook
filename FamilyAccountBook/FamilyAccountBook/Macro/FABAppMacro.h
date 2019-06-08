@@ -11,8 +11,12 @@
 
 /** FABMacro */
 #import "FABColorMacro.h"
+#import "FABFontMacro.h"
 
 /** Categories */
 #import "UINavigationBar+FABHidBottomLine.h"
+
+/** Vendors */
+#import <Masonry/Masonry.h>
 
 #endif /* FABAppMacro_h */

@@ -1,12 +1,12 @@
 //
-//  FABAccountVC.m
+//  FABAddIncomeAccountVC.m
 //  FamilyAccountBook
 //
 //  Created by lg on 2019/6/8.
 //  Copyright © 2019 sculg. All rights reserved.
 //
 
-#import "FABAccountVC.h"
+#import "FABAddIncomeAccountVC.h"
 
 //System
 //VC
@@ -15,12 +15,12 @@
 
 //Helper
 
-@interface FABAccountVC ()
+@interface FABAddIncomeAccountVC ()
 
 
 @end
 
-@implementation FABAccountVC
+@implementation FABAddIncomeAccountVC
 
 #pragma mark - Initialize Methods
 
@@ -29,7 +29,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    self.title = @"记账";
+
     [self setupSubViews];
     [self setupConstraints];
     [self setupEvent];
