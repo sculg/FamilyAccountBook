@@ -13,6 +13,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface FABAccountHeaderViewVM : NSObject
 
+/** 收入预算 */
+@property (nonatomic, strong, readonly) FABAccountHeaderBlockViewVM *incomeBudgetBlockViewVM;
+/** 支出预算 */
+@property (nonatomic, strong, readonly) FABAccountHeaderBlockViewVM *expenditureBudgetBlockViewVM;
+/** 记录笔数 */
+@property (nonatomic, strong, readonly) FABAccountHeaderBlockViewVM *accountNumBlockViewVM;
 /** 收入 */
 @property (nonatomic, strong, readonly) FABAccountHeaderBlockViewVM *incomeBlockViewVM;
 /** 支出 */

@@ -65,6 +65,13 @@
 }
 
 - (void)setupData {
+    if (self.viewModel.blockType == FABAccountHeaderBlockTypeDefault) {
+        self.valueLabel.font = kBoldFontSize(15);
+        self.valueLabel.textColor = kMainCommonColor;
+    }  else if (self.viewModel.blockType == FABAccountHeaderBlockTypeHightLight) {
+        self.valueLabel.font = kBoldFontSize(15);
+        self.valueLabel.textColor = kMainCommonColor;
+    }
     self.titleLabel.text = self.viewModel.titleStr;
     self.valueLabel.text = self.viewModel.valueStr;
 }
@@ -88,8 +95,8 @@
     if (!_valueLabel) {
         _valueLabel = [[UILabel alloc] init];
         _valueLabel.backgroundColor = [UIColor clearColor];
-        _valueLabel.font = kBoldFontSize(15);
-        _valueLabel.textColor = kMainCommonColor;
+//        _valueLabel.font = kBoldFontSize(15);
+//        _valueLabel.textColor = kMainCommonColor;
         _valueLabel.textAlignment = NSTextAlignmentCenter;
     }
     return _valueLabel;

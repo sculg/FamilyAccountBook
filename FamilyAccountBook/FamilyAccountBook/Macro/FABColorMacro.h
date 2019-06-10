@@ -23,5 +23,6 @@
 #define kMainCommonColor                    UIColorFromRGB(0xff632c)
 /** Tabbar 灰色 */
 #define kTabbarGrayColor                        UIColorFromRGB(0x7A7E83)
-
+/** ButtonDisable时的 灰色 */
+#define kButtonDisableColor                 UIColorFromRGB(0xa7a7a7)
 #endif /* FABColorMacro_h */

@@ -15,8 +15,8 @@
 
 /** Categories */
 #import "UINavigationBar+FABHidBottomLine.h"
+#import "UIImage+ConvertToUIImageAddtions.h"
 
 /** Vendors */
-#import <Masonry/Masonry.h>
-
+#import "Masonry.h"
 #endif /* FABAppMacro_h */

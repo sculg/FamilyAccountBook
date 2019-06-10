@@ -13,6 +13,7 @@
 //VM
 //View
 #import "FABAccountHeaderView.h"
+#import "RYButtonCell.h"
 //Helper
 
 @interface FABAccountVC ()<UITableViewDelegate,UITableViewDataSource>
@@ -66,13 +67,19 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return [[UITableViewCell alloc] init];
+    RYButtonCell *cell = [RYButtonCell cellForTableView:tableView];
+    [cell configButtonWithTitle:@"我要记账" titleColor:kWhiteColor bgColor:kMainCommonColor topOffset:10];
+    return cell;
 }
 
 #pragma mark - <UITableViewDelegate>
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 70;
 }
 
 #pragma mark - Property
@@ -88,7 +95,7 @@
 
 - (FABAccountHeaderView *)headerView {
     if (!_headerView) {
-        _headerView = [[FABAccountHeaderView alloc] initWithFrame:CGRectMake(0, 94, kScreenWidth, 110) viewModel:nil];
+        _headerView = [[FABAccountHeaderView alloc] initWithFrame:CGRectMake(0, 94, kScreenWidth, 180) viewModel:nil];
     }
     return _headerView;
 }

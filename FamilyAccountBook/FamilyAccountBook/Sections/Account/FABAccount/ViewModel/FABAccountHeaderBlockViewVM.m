@@ -10,11 +10,12 @@
 
 @implementation FABAccountHeaderBlockViewVM
 
-- (instancetype)initWithTitle:(NSString *)title Value:(NSString *)value {
+- (instancetype)initWithTitle:(NSString *)title Value:(NSString *)value blockType:(FABAccountHeaderBlockType)blockType {
     self = [super init];
     if (self) {
         _titleStr = title;
         _valueStr = value;
+        _blockType = blockType;
     }
     return self;
 }
