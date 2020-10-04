@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>RYPropertyGetTableView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UITableView *)&lt;#tableView#&gt; {
+    if (!_&lt;#tableView#&gt;) {
+        _&lt;#tableView#&gt; = [[UITableView alloc] initWithFrame:&lt;#self.view.bounds#&gt;];
+        _&lt;#tableView#&gt;.delegate = self;
+        _&lt;#tableView#&gt;.dataSource = self;
+        _&lt;#tableView#&gt;.separatorStyle = &lt;#UITableViewCellSeparatorStyleNone#&gt;;
+        _&lt;#tableView#&gt;.rowHeight = &lt;#kDefaultRowHeight#&gt;;
+        
+    }
+    return _&lt;#tableView#&gt;;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>4B793C03-3702-48CD-8AF7-680485BF807D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UITableView懒加载</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>PropertyGetTableView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

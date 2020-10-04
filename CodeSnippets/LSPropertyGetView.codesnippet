@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>RYPropertyGetView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIView *)&lt;#name#&gt;View {
+    if (!_&lt;#name#&gt;View) {
+        _&lt;#name#&gt;View = [[UIView alloc] init];
+        _&lt;#name#&gt;View.frame = CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
+        _&lt;#name#&gt;View.backgroundColor = &lt;#[UIColor clearColor]#&gt;;
+    }
+    return _&lt;#name#&gt;View;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7475D0BB-9574-41C1-8693-AF4254B52474</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIView懒加载</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>PropertyGetView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

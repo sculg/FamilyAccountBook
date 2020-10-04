@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>RYPropertyGetLabel</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UILabel *)&lt;#name#&gt;Label {
+    if (!_&lt;#name#&gt;Label) {
+        _&lt;#name#&gt;Label = [[UILabel alloc] init];
+        _&lt;#name#&gt;Label.backgroundColor = [UIColor clearColor];
+        _&lt;#name#&gt;Label.font = &lt;#kFontSize(13)#&gt;;
+        _&lt;#name#&gt;Label.textColor = &lt;#kTitleTextColor#&gt;;
+        _&lt;#name#&gt;Label.textAlignment = NSTextAlignmentCenter;
+        _&lt;#name#&gt;Label.text = &lt;#string#&gt;;
+    }
+    return _&lt;#name#&gt;Label;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>41E56D11-39EC-4648-80F9-6BC5BCBCC52D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Label懒加载</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>PropertyGetLabel</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

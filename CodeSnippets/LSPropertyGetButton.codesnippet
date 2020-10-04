@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>RYPropertyGetButton</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIButton *)&lt;#name#&gt;Btn {
+    if (!_&lt;#name#&gt;Btn) {
+        _&lt;#name#&gt;Btn = [[UIButton alloc] init];
+        _&lt;#name#&gt;Btn.frame = CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
+        _&lt;#name#&gt;Btn.titleLabel.font = &lt;#kFontSize(16)#&gt;;
+        [_&lt;#name#&gt;Btn setTitle:&lt;#title#&gt; forState:UIControlStateNormal];
+        [_&lt;#name#&gt;Btn setTitleColor:titleColor forState:UIControlStateNormal];
+        [_&lt;#name#&gt;Btn setBackgroundImage:&lt;#image#&gt; forState:UIControlStateNormal];
+        [_&lt;#name#&gt;Btn setBackgroundImage:&lt;#image#&gt; forState:UIControlStateHighlighted];
+        [_&lt;#name#&gt;Btn addTarget:&lt;#self#&gt; action:&lt;#@selector(click&lt;#name#&gt;Btn:)#&gt; forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _&lt;#name#&gt;Btn;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B354DC63-7C8A-4F80-8D3C-803490830F1E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Button懒加载</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>PropertyGetButton</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

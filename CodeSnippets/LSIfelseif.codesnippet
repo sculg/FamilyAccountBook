@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>RYIfelseif</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>if (&lt;#condition#&gt;) {
+        &lt;#statements#&gt;
+    }
+    else if (&lt;#condition#&gt;) {
+        &lt;#statements#&gt;
+    }
+    else (&lt;#condition#&gt;) {
+        &lt;#statements#&gt;
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6C9214DB-C583-458D-8079-8A1DCE71B3C5</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Ifelseif判断</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Ifelseif</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

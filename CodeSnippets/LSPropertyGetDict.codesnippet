@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>RYPropertyGetDict</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (NSDictionary&lt;&lt;#Class#&gt; *, &lt;#Class#&gt; *&gt; *)&lt;#name#&gt;Dict {
+    if (!_&lt;#name#&gt;Dict) {
+        _&lt;#name#&gt;Dict = [NSDictionary dictionary];
+    }
+    return _&lt;#name#&gt;Dict;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6A7C2D8A-A025-4909-85CB-6EBA658E30D0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>泛型字典懒加载</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>PropertyGetDict</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

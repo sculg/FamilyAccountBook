@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>RYPropertyGetImageView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIImageView *)&lt;#name#&gt;ImageView {
+    if (!_&lt;#name#&gt;ImageView) {
+        _&lt;#name#&gt;ImageView = [[UIImageView alloc] init];
+        _&lt;#name#&gt;ImageView.frame = CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
+        _&lt;#name#&gt;ImageView.image = [UIImage imageNamed:""];
+        _&lt;#name#&gt;ImageView.backgroundColor = &lt;#[UIColor clearColor]#&gt;;
+    }
+    return _&lt;#name#&gt;ImageView;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>21244B74-4EC0-4F5D-80F1-DE38C0BA1D10</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>ImageView懒加载</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>PropertyGetImageView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

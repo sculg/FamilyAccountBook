@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>RYmas_makeConstraints</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>[&lt;#object#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
+        
+        make.top.equalTo(&lt;#object#&gt;.mas_top)&lt;#.offset(0)#&gt;;
+        make.bottom.equalTo(&lt;#object#&gt;.mas_bottom)&lt;#.offset(0)#&gt;;
+        make.left.equalTo(&lt;#object#&gt;.mas_left)&lt;#.offset(0)#&gt;;
+        make.right.equalTo(&lt;#object#&gt;.mas_right)&lt;#.offset(0)#&gt;;
+        
+        make.centerY.equalTo(&lt;#object#&gt;.mas_centerX);
+        make.centerX.equalTo(&lt;#object#&gt;.mas_centerY);
+        
+        make.height.equalTo(&lt;#@0#&gt;);
+        make.width.equalTo(&lt;#@0#&gt;);
+    }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>20C7F65D-F713-4226-8345-07A8652C428B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>添加约束</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>mas_makeConstraints</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
